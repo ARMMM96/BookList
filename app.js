@@ -54,7 +54,6 @@ UI.prototype.addBookToolist = function(book){
 UI.prototype.deleteBook = (target) => {
     if(target.className  === 'delete'){
         target.parentElement.parentElement.remove();
-
     }
 }
 
